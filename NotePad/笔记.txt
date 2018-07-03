@@ -1,0 +1,24 @@
+JMEnuBar
+☝
+JMenu
+☝
+JMenuItem(" XX")
+
+JMenu.add(JMenuItem)
+JMEnuBar.add(JMenu)
+
+set本来有，只是没体现
+add添加
+
+！！！！！！！！字符  字节+编码（ascII，gbk，utf-8,..
+inputStreamReader只有这个可以指定码表
+1.指定read，write编码      2.重新编码，怎么来怎么回
+编码encode 写
+解码decode
+iso没有中文->不支持的不能写
+乱码->解码 ：找错码表
+解决方法：
+
+arrays.toString(bytes)
+
+不关流 没效果
